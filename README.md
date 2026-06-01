@@ -23,6 +23,11 @@ one_matrix=np.linalg.norm(matrix,1)
 print("{:.2f}".format(one_matrix))
 
 # 2-Norm of a Matrix
+## Algorithm:
+1. Get the input matrix using np.array()   
+2. Find the 2-norm of the matrix using np.linalg.norm()
+3. Print the norm of the matrix in two decimal places.
+
 
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -32,6 +37,11 @@ two_matrix=np.linalg.norm(matrix,2)
 print("{:.2f}".format(two_matrix))
 
 # Infinity Norm of a Matrix
+## Algorithm:
+1. Get the input matrix using np.array()   
+2. Find the 2-norm of the matrix using np.linalg.norm()
+3. Print the norm of the matrix in two decimal places.
+
 
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
